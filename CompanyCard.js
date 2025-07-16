@@ -51,9 +51,9 @@ function buildRestrictedDomainCard(domain) {
  */
 function buildCompanyCard(companyProfile, domain) {
   const companyName = companyProfile.company_name || domain;
-  const location = companyProfile.headquarters_metro || 'Unknown';
-  const description = companyProfile.company_description || 'Unknown';
-  const salesforce_organization_id = companyProfile.salesforce_organization_id;
+  const location = companyProfile.headquarters_metro || 'N/A';
+  const description = companyProfile.company_description || 'N/A';
+  const salesforce_organization_id = companyProfile.salesforce_organization_id || 'N/A';
   
   return CardService.newCardBuilder()
     .setHeader(CardService.newCardHeader()
