@@ -25,7 +25,10 @@
       "useLocaleFromApp": true,
       "openLinkUrlPrefixes": [
         "https://mail.google.com/"
-      ]
+      ],
+      "layoutProperties": {
+        "primaryColor": "#1e3c6e"
+      }
     },
     "gmail": {
       "contextualTriggers": [
